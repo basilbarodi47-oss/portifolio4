@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assests/images/icon.png">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Basil Barodi</h1>
+    <p>Frontend Developer (Year 2 Student)</p>
+</header>
+
+<main>
+
+<section id="hero">
+    <img src="assests/images/basel.jpeg" alt="" width="180">
+    <h2>Welcome to My Portfolio</h2>
+    <p>I am learning HTML, CSS, and JavaScript.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a second-year student in Musanze at Ines.
+        I am passionate about frontend development.
+    </p>
+    <p>
+        My goal is to become a professional frontend developer.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C language</li>
+        <li>Python</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Calculates monthly loan payments.</p>
+    <p>Vlan networking</p>
+    <img src="assests/images/project.png" alt="my project" width="350">
+</section>
+
+<section id="calculator">
+    <h2>Loan Repayment Calculator</h2>
+
+    <form id="loanForm">
+        <label for="amount">Loan Amount</label>
+        <input type="number" id="amount" required>
+
+        <label for="interest">Interest Rate (%)</label>
+        <input type="number" id="interest" required>
+
+        <label for="months">Months</label>
+        <input type="number" id="months" required>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <p id="result"></p>
+</section>
+
+<section id="cv">
+    <h2>My CV</h2>
+    <a href="assests/cv/my-cv.pdf" download>Download CV</a>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: basilbarodi47@email.com</p>
+    <p>Phone: +250 795708629</p>
+
+    <form>
+        <label>Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Message</label>
+        <textarea required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> Basil Barodi</p>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
